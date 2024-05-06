@@ -138,13 +138,17 @@ const PokedexApp = () => {
                 : ""
             }`}
             onClick={() => handlePokemonClick(pokemon)}
+            
           >
+          
             <img
               src={pokemon.image}
               alt={pokemon.name}
-              className="mx-auto mb-2"
+              className="mx-auto mb-2 hover:scale-125 transform transition duration-800"
               style={{ maxWidth: "96px" }}
-            />
+              />
+              
+              
             <div className="text-center">{pokemon.name}</div>
           </li>
        
