@@ -144,7 +144,7 @@ const PokedexApp = () => {
             <img
               src={pokemon.image}
               alt={pokemon.name}
-              className="mx-auto mb-2 hover:scale-125 transform transition duration-800"
+              className="mx-auto mb-2 hover:scale-125 transform transition duration-800 h-[96px]  w-[96px]"
               style={{ maxWidth: "96px" }}
               />
               
